@@ -14,8 +14,8 @@ Install the required Python package `pyamaze`:
 ``` pip install pyamaze ```
 
 ## Project Structure
-Maze Size: The maze is a 7x20 grid with a start point at (1, 1) and a goal at (7, 19).
-Algorithm Parameters:
+**Maze Size**: The maze is a 7x20 grid with a start point at (1, 1) and a goal at (7, 19).
+**Algorithm Parameters**:
   Population Size: 2000
   Max Generations: 5000
   Mutation Probability: 0.06
@@ -24,14 +24,14 @@ Algorithm Parameters:
 
 ## Functionality
 ### Maze Loading
-The maze structure is loaded from a CSV file (myMaze.csv), where each cell in the maze has walls (East, West, North, South) defined for its possible movements.
+The maze structure is loaded from a CSV file `myMaze.csv`, where each cell in the maze has walls (East, West, North, South) defined for its possible movements.
 
 ### Genetic Algorithm Components
-1. Genome: Each genome represents a path through the maze, encoded as a list of integers.
-2. Population: The algorithm maintains a population of genomes that evolve over generations to find the best solution.
-3. Fitness Function: Measures the quality of a solution based on path length, infeasible steps, and distance to the goal.
-4. Crossover: The mod7_crossover function creates new genomes by combining two parent genomes with a mod7 operation.
-5. Mutation: The segmented_mutation function randomly alters a segment of the genome with a specified probability.
+1. **Genome**: Each genome represents a path through the maze, encoded as a list of integers.
+2. **Population**: The algorithm maintains a population of genomes that evolve over generations to find the best solution.
+3. **Fitness Function**: Measures the quality of a solution based on path length, infeasible steps, and distance to the goal.
+4. **Crossover**: The `mod7_crossover` function creates new genomes by combining two parent genomes with a mod7 operation.
+5. **Mutation**: The `segmented_mutation` function randomly alters a segment of the genome with a specified probability.
 
 ### Evolution Loop
 The genetic algorithm evolves the population through multiple generations. Each generation undergoes fitness evaluation, selection of the best solutions, crossover, and mutation.
