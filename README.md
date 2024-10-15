@@ -11,7 +11,9 @@ This project implements a genetic algorithm (GA) to solve a maze using a 7x20 gr
 
 Install the required Python package `pyamaze`:
 
-``` pip install pyamaze ```
+```
+pip install pyamaze 
+```
 
 ## Project Structure
 **Maze Size**: The maze is a 7x20 grid with a start point at (1, 1) and a goal at (7, 19).
@@ -47,7 +49,6 @@ If a solution is found within the specified number of generations, the path is t
 5. Solution: The best genome is traced and visualized as the solution path.
 
 ### Example Usage
-` python `
-
-### Main function to run the genetic algorithm
+`
 main()
+`
