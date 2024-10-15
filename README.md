@@ -42,13 +42,16 @@ The genetic algorithm evolves the population through multiple generations. Each 
 If a solution is found within the specified number of generations, the path is traced and visualized using the pyamaze library.
 
 ## How It Works
-1. Load Maze: The maze is loaded from the CSV file into the program.
-2. Generate Initial Population: A population of random genomes is generated.
-3. Evaluate Fitness: Each genome is evaluated for fitness based on path feasibility and distance to the goal.
-4. Evolve Population: Through crossover and mutation, the population evolves over generations.
-5. Solution: The best genome is traced and visualized as the solution path.
+1. **Load Maze**: The maze is loaded from the CSV file into the program.
+2. **Generate Initial Population**: A population of random genomes is generated.
+3. **Evaluate Fitness**: Each genome is evaluated for fitness based on path feasibility and distance to the goal.
+4. **Evolve Population**: Through crossover and mutation, the population evolves over generations.
+5. **Solution**: The best genome is traced and visualized as the solution path.
 
 ### Example Usage
 ```
 main()
 ```
+
+## Author
+
