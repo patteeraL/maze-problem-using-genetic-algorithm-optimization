@@ -49,6 +49,6 @@ If a solution is found within the specified number of generations, the path is t
 5. Solution: The best genome is traced and visualized as the solution path.
 
 ### Example Usage
-`
+```
 main()
-`
+```
