@@ -16,8 +16,9 @@ pip install pyamaze
 ```
 
 ## Project Structure
-**Maze Size**: The maze is a 7x20 grid with a start point at (1, 1) and a goal at (7, 19).
-**Algorithm Parameters**:
+### Maze Size: 
+The maze is a 7x20 grid with a start point at (1, 1) and a goal at (7, 19).
+### Algorithm Parameters:
 - Population Size: 2000
 - Max Generations: 5000
 - Mutation Probability: 0.06
