@@ -52,6 +52,11 @@ If a solution is found within the specified number of generations, the path is t
 ```
 main()
 ```
+### **Solution from `myMaze.py`**
+
+The solution path from the genetic algorithm is visualized as shown below:
+
+![Final Solution](maze-problem-using-genetic-algorithm-optimization/output/final_solution.png)
 
 ## Author
 Developed by Patteera Lerdtada.
