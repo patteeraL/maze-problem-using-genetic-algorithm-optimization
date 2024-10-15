@@ -54,4 +54,4 @@ main()
 ```
 
 ## Author
-
+Developed by Patteera Lerdtada.
