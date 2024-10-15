@@ -1,11 +1,7 @@
 # maze-problem-using-genetic-algorithm-optimization
 
 ### Overview
-This project demonstrates the use of genetic algorithms to solve maze problems by evolving potential solutions over multiple generations. The algorithm uses a fitness-based selection mechanism to guide the population toward optimal paths.
-
-# Genetic Algorithm for Maze Solving
-
-Implements a `genetic algorithm (GA)` to solve a maze using a `7x20 grid`. The aim is to navigate from a start point to the goal, avoiding obstacles and minimizing infeasible steps. The algorithm works by generating a population of potential solutions, evolving through crossover and mutation, and selecting the best solution based on fitness criteria.
+This project implements a `genetic algorithm (GA)` to solve a maze using a `7x20 grid`. The aim is to navigate from a start point to the goal, avoiding obstacles and minimizing infeasible steps. The algorithm works by generating a population of potential solutions, evolving through crossover and mutation, and selecting the best solution based on fitness criteria.
 
 ## Prerequisites
 
