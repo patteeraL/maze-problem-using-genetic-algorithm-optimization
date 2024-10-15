@@ -54,7 +54,7 @@ main()
 ```
 ### **Solution from `myMaze.py`**
 
-The solution path from the genetic algorithm is visualized as shown below:
+The solution path from the `myMaze.py` using `genetic algorithm` is visualized as shown below:
 
 ![Final Solution](/output/final_solution.png)
 
